@@ -10,7 +10,8 @@ module.exports = {
       }
     },
   },
-  plugins: [
-    require('tailwindcss-textshadow'),
-  ]
+  plugins: []
+  // plugins: [
+  //   // require('tailwindcss-textshadow'),
+  // ]
 }

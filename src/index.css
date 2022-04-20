@@ -12,3 +12,14 @@
   font-weight: 400;
   src: local("Mermaid"), url(./assets/font/mermaid.OTF) format("opentype");
 }
+
+.text-shadow-purple {
+  -webkit-text-stroke: 0.7px rgb(82 49 130 / 100%);
+  text-shadow: 0 0 23px rgb(82 49 130 / 100%), 0 4px 10px rgb(82 49 130 / 100%);
+}
+
+.text-shadow-white {
+  -webkit-text-stroke: 0.3px rgb(255 255 255 / 100%);
+  text-shadow: 0 0 23px rgb(255 255 255 / 25%),
+    0 4px 10px rgb(255 255 255 / 25%);
+}
