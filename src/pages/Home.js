@@ -55,28 +55,36 @@ function Home() {
                 </Link>
               </div>
               <div>
-                <img src={Lineup} className="transition duration-300 rounded-full hover:shadow-md hover:shadow-pink-300 w-24 hover:rotate-45" alt="" />
-                <div className="text-center pt-2 text-white text-2xl text-shadow-lg text-shadow-white">
-                  LINE UP
-                </div>
+                <Link to="/line-up">
+                  <img src={Lineup} className="transition duration-300 rounded-full hover:shadow-md hover:shadow-pink-300 w-24 hover:rotate-45" alt="" />
+                  <div className="text-center pt-2 text-white text-2xl text-shadow-lg text-shadow-white">
+                    LINE UP
+                  </div>
+                </Link>
               </div>
               <div>
-                <img src={Map} className="transition duration-300 rounded-full hover:shadow-md hover:shadow-pink-300 w-24 hover:rotate-45" alt="" />
-                <div className="text-center pt-2 text-white text-2xl text-shadow-lg text-shadow-white">
-                  MAPS
-                </div>
+                <Link to="/maps">
+                  <img src={Map} className="transition duration-300 rounded-full hover:shadow-md hover:shadow-pink-300 w-24 hover:rotate-45" alt="" />
+                  <div className="text-center pt-2 text-white text-2xl text-shadow-lg text-shadow-white">
+                    MAPS
+                  </div>
+                </Link>
               </div>
               <div>
-                <img src={Maskot} className="transition duration-300 rounded-full hover:shadow-md hover:shadow-pink-300 w-24 hover:rotate-45" alt="" />
-                <div className="text-center pt-2 text-white text-2xl text-shadow-lg text-shadow-white">
-                  MASKOT
-                </div>
+                <Link to="/maskot">
+                  <img src={Maskot} className="transition duration-300 rounded-full hover:shadow-md hover:shadow-pink-300 w-24 hover:rotate-45" alt="" />
+                  <div className="text-center pt-2 text-white text-2xl text-shadow-lg text-shadow-white">
+                    MASKOT
+                  </div>
+                </Link>
               </div>
               <div>
-                <img src={Theme} className="transition duration-300 rounded-full hover:shadow-md hover:shadow-pink-300 w-24 hover:rotate-45" alt="" />
-                <div className="text-center pt-2 text-white text-2xl text-shadow-lg text-shadow-white">
-                  THEME
-                </div>
+                <Link to="/theme">
+                  <img src={Theme} className="transition duration-300 rounded-full hover:shadow-md hover:shadow-pink-300 w-24 hover:rotate-45" alt="" />
+                  <div className="text-center pt-2 text-white text-2xl text-shadow-lg text-shadow-white">
+                    THEME
+                  </div>
+                </Link>
               </div>
             </div>
             <div className="hidden lg:block -mt-16 bg-no-repeat bg-contain bg-center h-16" style={{backgroundImage: `url(${NavBackground})`}}>

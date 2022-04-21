@@ -20,6 +20,20 @@
     url(./assets/font/FAHKWANG-BOLD.TTF) format("truetype");
 }
 
+@font-face {
+  font-family: "Fahkwang";
+  font-weight: 400;
+  src: local("Fahkwang"),
+    url(./assets/font/FAHKWANG-REGULAR.TTF) format("truetype");
+}
+
+@font-face {
+  font-family: "AXR";
+  font-weight: 400;
+  src: local("AXR"),
+    url(./assets/font/AXR\ NEVERLAND\ REGULAR.OTF) format("opentype");
+}
+
 .text-shadow-purple {
   -webkit-text-stroke: 0.7px rgb(82 49 130 / 100%);
   text-shadow: 0 0 23px rgb(82 49 130 / 100%), 0 4px 10px rgb(82 49 130 / 100%);

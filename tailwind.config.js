@@ -8,6 +8,7 @@ module.exports = {
         'lansdowne': 'Lansdowne',
         'mermaid': 'Mermaid',
         'fahkwang': 'Fahkwang',
+        'axr': 'AXR',
       }
     },
   },
