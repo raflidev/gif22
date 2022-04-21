@@ -80,10 +80,10 @@ function App() {
             </div>
             <div className="px-5 lg:px-32 pt-0 lg:pt-10">
               <div className="flex space-x-3">
-                <button className="transition ease-in-out delay-150 hover:-translate-y-0 hover:scale-110 duration-300 uppercase text-xl bg-cyan-800 hover:bg-cyan-500  text-white px-5 py-3 rounded-lg text-shadow-white" onClick={() => setDesc(temp1)}>Description</button>
-                <button className="transition ease-in-out delay-150 hover:-translate-y-0 hover:scale-110 duration-300 uppercase text-xl bg-cyan-800 hover:bg-cyan-500 text-white px-5 py-3 rounded-lg text-shadow-white" onClick={() => setDesc(temp2)}>pra & main event</button>
+                <button className="transition ease-in-out delay-150 hover:-translate-y-0 hover:scale-110 duration-300 uppercase text-xl bg-cyan-800 hover:bg-cyan-500  text-white px-3 sm:px-5 py-2 sm:py-3 rounded-lg text-shadow-white" onClick={() => setDesc(temp1)}>Description</button>
+                <button className="transition ease-in-out delay-150 hover:-translate-y-0 hover:scale-110 duration-300 uppercase text-xl bg-cyan-800 hover:bg-cyan-500 text-white px-3 sm:px-5 py-2 sm:py-3 rounded-lg text-shadow-white" onClick={() => setDesc(temp2)}>pra & main event</button>
               </div>
-              <div className="flex bg-no-repeat bg-cover bg-center h-80 md:h-48 lg:h-36 rounded-xl mt-5 p-8 text-3xl text-white text-shadow-white bg-cyan-800" style={{backgroundImage: `url(${DescBackground})`}}>
+              <div className="flex bg-no-repeat bg-cover bg-center h-96 sm:h-80 md:h-48 lg:h-36 rounded-xl mt-5 p-4 md:p-6 lg:p-4 xl:p-8 text-3xl text-white text-shadow-white bg-cyan-800" style={{backgroundImage: `url(${DescBackground})`}}>
                 <div dangerouslySetInnerHTML={{ __html: Desc }} />
               </div>
             </div>
