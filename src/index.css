@@ -13,6 +13,13 @@
   src: local("Mermaid"), url(./assets/font/mermaid.OTF) format("opentype");
 }
 
+@font-face {
+  font-family: "Fahkwang";
+  font-weight: 700;
+  src: local("Fahkwang"),
+    url(./assets/font/FAHKWANG-BOLD.TTF) format("truetype");
+}
+
 .text-shadow-purple {
   -webkit-text-stroke: 0.7px rgb(82 49 130 / 100%);
   text-shadow: 0 0 23px rgb(82 49 130 / 100%), 0 4px 10px rgb(82 49 130 / 100%);

@@ -7,6 +7,7 @@ module.exports = {
       fontFamily: {
         'lansdowne': 'Lansdowne',
         'mermaid': 'Mermaid',
+        'fahkwang': 'Fahkwang',
       }
     },
   },
