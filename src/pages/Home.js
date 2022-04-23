@@ -101,10 +101,10 @@ function Home() {
 
             <div className="pt-5 lg:pt-32">
               <div className="absolute">
-                <HoverImage className="mt-10 md:-mt-10 lg:-mt-16 xl:-mt-0 transition ease-in-out delay-150 hover:-translate-y-1 duration-500 w-5/6 lg:w-7/12 xl:w-4/12 mx-auto" src={Throwback} hoverSrc={Throwback2} />
+                <HoverImage className="mt-10 laptop-1120:-mt-40 md:-mt-10 lg:-mt-28 laptop-1440:w-6/12 xl:-mt-0 transition ease-in-out delay-150 hover:-translate-y-1 duration-500 w-5/6 md:w-7/12 lg:w-7/12 xl:w-4/12 mx-auto" src={Throwback} hoverSrc={Throwback2} />
               </div>
 
-              <div className="grid grid-cols-2 gap-2 md:flex -mt-0 lg:mt-18 md:flex-row justify-center space-x-0 xl:space-x-10 pt-64">
+              <div className="grid grid-cols-2 gap-2 md:flex -mt-0 lg:-mt-20 lg:space-x-0 md:-mt-14 xl:mt-0 laptop-1344:space-x-3 laptop-1344:-mt-36 laptop-1440:-mt-14 laptop-1440:space-x-2 laptop-1536:mt-3 laptop-1536:space-x-5 laptop-1120:space-x-0 laptop-1120:-mt-28 laptop-1600:mt-20 laptop-1600:space-x-10 md:flex-row justify-center space-x-0 xl:space-x-10 pt-64">
                 <a href="https://www.youtube.com/watch?v=ip3z8WMNRMs&ab_channel=ForcyTel_U" rel="noreferrer" target="_blank">
                   <HoverImage src={Tower1} className="w-48 mx-auto" hoverSrc={Tower1_2} />
                   <div className="text-shadow-purple text-5xl text-center tracking-tighter -mt-5 text-shadow-lg text-white font-mermaid">
