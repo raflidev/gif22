@@ -104,31 +104,31 @@ function Home() {
                 <HoverImage className="mt-10 md:-mt-10 lg:-mt-16 xl:-mt-0 transition ease-in-out delay-150 hover:-translate-y-1 duration-500 w-5/6 lg:w-7/12 xl:w-4/12 mx-auto" src={Throwback} hoverSrc={Throwback2} />
               </div>
 
-              <div className="grid grid-cols-2 gap-2 md:flex md:flex-row justify-center space-x-0 xl:space-x-10 pt-64">
-                <div>
+              <div className="grid grid-cols-2 gap-2 md:flex -mt-0 lg:mt-18 md:flex-row justify-center space-x-0 xl:space-x-10 pt-64">
+                <a href="https://www.youtube.com/watch?v=ip3z8WMNRMs&ab_channel=ForcyTel_U" rel="noreferrer" target="_blank">
                   <HoverImage src={Tower1} className="w-48 mx-auto" hoverSrc={Tower1_2} />
                   <div className="text-shadow-purple text-5xl text-center tracking-tighter -mt-5 text-shadow-lg text-white font-mermaid">
                     GIF <span className="block">2021</span>
                   </div>
-                </div>
-                <div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=ip3z8WMNRMs&ab_channel=ForcyTel_U" rel="noreferrer" target="_blank">
                   <HoverImage src={Tower2} className="w-48 mx-auto" hoverSrc={Tower2_2} />
                   <div className="text-shadow-purple text-5xl text-center tracking-tighter -mt-5 text-shadow-lg text-white font-mermaid">
                     GIF <span className="block">2020</span>
                   </div>
-                </div>
-                <div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=llxivSjULgs&ab_channel=GrabItFastTelkom" rel="noreferrer" target="_blank">
                   <HoverImage src={Tower3} className="w-48 mx-auto" hoverSrc={Tower3_2} />
                   <div className="text-shadow-purple text-5xl text-center tracking-tighter -mt-5 text-shadow-lg text-white font-mermaid">
                     GIF <span className="block">2019</span>
                   </div>
-                </div>
-                <div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=l3HzFG4uKRo&ab_channel=GrabItFastTelkom" rel="noreferrer" target="_blank">
                   <HoverImage src={Tower4} className="w-48 mx-auto" hoverSrc={Tower4_2} />
                   <div className="text-shadow-purple text-5xl text-center tracking-tighter -mt-5 text-shadow-lg text-white font-mermaid">
                     GIF <span className="block">2018</span>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
 
