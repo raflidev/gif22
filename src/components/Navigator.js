@@ -2,7 +2,7 @@ import React from 'react'
 import About from "../assets/images/navigation/about.png";
 import Lineup from "../assets/images/navigation/lineup.png";
 import Map from "../assets/images/navigation/map.png";
-import Maskot from "../assets/images/navigation/maskot.png";
+import Mascot from "../assets/images/navigation/maskot.png";
 import Theme from "../assets/images/navigation/theme.png";
 import Media from "../assets/images/navigation/media.png";
 import ThrowbackIcon from "../assets/images/navigation/throwback.png";
@@ -36,10 +36,10 @@ function Navigator() {
         </Link>
       </div>
       <div>
-        <Link to="/maskot">
-          <img src={Maskot} className="transition duration-300 rounded-full hover:shadow-md hover:shadow-pink-300 w-24 hover:rotate-45 mx-auto" alt="" />
+        <Link to="/mascot">
+          <img src={Mascot} className="transition duration-300 rounded-full hover:shadow-md hover:shadow-pink-300 w-24 hover:rotate-45 mx-auto" alt="" />
           <div className="text-center pt-2 text-white text-2xl text-shadow-lg text-shadow-white">
-            MASKOT
+            MASCOT
           </div>
         </Link>
       </div>

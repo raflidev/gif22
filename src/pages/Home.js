@@ -6,7 +6,7 @@ import logo_gif from "../assets/images/logo_gif.png";
 import About from "../assets/images/navigation/about.png";
 import Lineup from "../assets/images/navigation/lineup.png";
 import Map from "../assets/images/navigation/map.png";
-import Maskot from "../assets/images/navigation/maskot.png";
+import Mascot from "../assets/images/navigation/maskot.png";
 import Theme from "../assets/images/navigation/theme.png";
 import Media from "../assets/images/navigation/media.png";
 import ThrowbackIcon from "../assets/images/navigation/throwback.png";
@@ -29,8 +29,9 @@ import Tower4_2 from "../assets/images/tower/2018_2.png";
 import { Link } from 'react-router-dom';
 
 function Home() {
-  const temp1 = "Grab It Fast 2021 terdiri atas main event dan pra event. Main event terdiri atas rangkaian acara try out, seminar, expo, penampilan dari pengisi acara, dan puncaknya adalah penampilan dari ... <a href='#' class='text-blue-500 hover:text-blue-200 hover:underline'>Read More</a>"
-  const temp2 = "Forcy Championship (FORCHAMP) merupakan ajang kompetisi yang diselenggarakan oleh komunitas mahasiswa Bogor di Telkom University. Pra event forchamp ini ... <a href='#' class='text-blue-500 hover:text-blue-200 hover:underline'>Read More</a>"
+  const temp1 = "Grab It Fast 2022 merupakan kegiatan yang diselenggarakan oleh Family of Rain City (FORCY) Telkom University... <a href='/description' class='text-blue-500 hover:text-blue-200 hover:underline'>Read More</a>"
+  const temp2 = "Forcy Championship (FORCHAMP) merupakan ajang kompetisi yang diselenggarakan oleh komunitas mahasiswa Bogor di Telkom University. Pra event forchamp ini ... <a href='/pramainevent' class='text-blue-500 hover:text-blue-200 hover:underline'>Read More</a>"
+
   const [Desc, setDesc] = useState("")
 
   useEffect(() => {
@@ -73,10 +74,10 @@ function Home() {
                 </Link>
               </div>
               <div>
-                <Link to="/maskot">
-                  <img src={Maskot} className="transition duration-300 rounded-full hover:shadow-md hover:shadow-pink-300 w-24 hover:rotate-45" alt="" />
+                <Link to="/mascot">
+                  <img src={Mascot} className="transition duration-300 rounded-full hover:shadow-md hover:shadow-pink-300 w-24 hover:rotate-45" alt="" />
                   <div className="text-center pt-2 text-white text-2xl text-shadow-lg text-shadow-white">
-                    MASKOT
+                    MASCOT
                   </div>
                 </Link>
               </div>

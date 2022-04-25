@@ -8,7 +8,7 @@ import Geulis from "../assets/images/maskot/geulis.png"
 import Ujang from "../assets/images/maskot/ujang.png"
 import Kasep from "../assets/images/maskot/kasep.png"
 
-function Maskot() {
+function Mascot() {
   return (
     <div className="bg-no-repeat bg-cover bg-top" style={{backgroundImage: `url(${MaskotBackground})`}}>
       <Navbar/>
@@ -21,25 +21,6 @@ function Maskot() {
 
             <div className="flex-col flex-none lg:flex lg:flex-row justify-between items-center">
               <div className="w-full lg:w-5/12">
-                <img src={Geulis} className="mx-auto lg:mx-0 w-1/2 lg:w-9/12" alt="" />
-              </div>
-              <div className="w-full lg:w-7/12 px-10">
-                <div className="font-axr text-center lg:text-left py-5 lg:py-0 text-red-100 uppercase text-5xl text-shadow-white">
-                  Geulis
-                </div>
-                <div className="font-fahkwang text-shadow-white text-red-100 w-full lg:w-11/12 text-justify space-y-5 pb-10 lg:pb-0">
-                  <p>
-                    Perkenalkan! Si Geulis adalah maskot kami, Geulis ini selain memiliki paras yang cantik dia juga punya banyak keahlian lhoo! Dia memiliki karakter ceria, cerdas dan memiliki rasa ingin tahu yang tinggi sesuai sama warna kesukaannya yaitu warna kuning nih, peeps!
-                  </p>
-                  <p>
-                    Nah, karena rasa ingin tahunya yang tinggi dia bisa dibilang multi tasking lhoo saking banyak nya hal yang dia suka pelajarin. Oiya! si Geulis ini punya hobi menggambar. Katanya, lewat gambar dia bisa mengekspresikan apapun. Selama beraktivitas, si Geulis selalu ditemani dengan si Kasep dan si Ujang.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex-col flex-none lg:flex lg:flex-row-reverse justify-between items-center">
-              <div className="w-full lg:w-5/12">
                 <img src={Kasep} className="mx-auto lg:mx-0 w-1/2 lg:w-9/12" alt="" />
               </div>
               <div className="w-full lg:w-7/12 px-10">
@@ -48,16 +29,16 @@ function Maskot() {
                 </div>
                 <div className="font-fahkwang text-shadow-white text-red-100 w-full lg:w-11/12 text-justify space-y-5 pb-10 lg:pb-0">
                   <p>
-                    Kenalin nih maskot kita selain si Geulis, dia juga punya teman namanya si Kasep!! Kasep itu sangat kreatif dan memiliki ide-ide unik yang tentunya sangat mind blowing.
+                    Kenalin, ini maskot pertama yang akan nemenin kalian. Namanya Kasep, dia terkenal humble dan friendly. Kasep juga sangat kreatif, makanya Kasep sering memiliki ide-ide yang unik.
                   </p>
                   <p>
-                    Oiya! Kasep sangat suka warna oranye, karena melambangkan semangat, optimisme dan percaya diri. Wihh, seru ya temenan sama si Kasep!!!
+                    Oiya, si Kasep ini juga punya hobi baca buku, dia juga punya wawasan yang luas dan suka belajar dari hal-hal baru yang dia temui.
                   </p>
                 </div>
               </div>
             </div>
-            
-            <div className="flex-col flex-none lg:flex lg:flex-row justify-between items-center">
+
+            <div className="flex-col flex-none lg:flex lg:flex-row-reverse justify-between items-center">
               <div className="w-full lg:w-5/12">
                 <img src={Ujang} className="mx-auto lg:mx-0 w-1/2 lg:w-9/12" alt="" />
               </div>
@@ -67,15 +48,34 @@ function Maskot() {
                 </div>
                 <div className="font-fahkwang text-shadow-white text-red-100 w-full lg:w-11/12 text-justify space-y-5 pb-10 lg:pb-0">
                   <p>
-                    Nah, ini adalah temannya si Geulis dan si Kasep, yang bernama si Ujang. Ujang itu selalu ceria dan tidak pernah takut untuk mengekspresikan dirinya, dia menyukai semua warna loh!! Namun diantara semua warna yang paling dia sukai adalah warna merah. Sesuai dengan karakternya yang berani dalam mengekspresikan apapun yang dia rasakan yaaa peeps.
+                    Nah setelah kenalan sama Kasep, yuk kita kenalan sama salah satu sahabatnya juga yang bernama Ujang. Ujang itu selalu ceria dan suka mengeksplorasi dengan mencoba hal-hal baru.
                   </p>
                   <p>
-                    Eiitss, jangan takut sama si Ujang ya peeps! walaupun dia hewan tapi dia mau berteman dengan siapa saja dan selalu ceria lhoo, jadi jangan takut yaa. Oiya! di acara Grab It Fast 2021 kalo kalian mau bawa hewan peliharaan kalian, boleh banget nih, nanti pasti bakal di temenin sama si Ujang!
+                    Selain itu, Ujang juga jago banget bikin inovasi-inovasi yang tidak terduga dengan tangan ajaibnya loh!
                   </p>
                 </div>
               </div>
             </div>
 
+            <div className="flex-col flex-none lg:flex lg:flex-row justify-between items-center">
+              <div className="w-full lg:w-5/12">
+                <img src={Geulis} className="mx-auto lg:mx-0 w-1/2 lg:w-9/12" alt="" />
+              </div>
+              <div className="w-full lg:w-7/12 px-10">
+                <div className="font-axr text-center lg:text-left py-5 lg:py-0 text-red-100 uppercase text-5xl text-shadow-white">
+                  Geulis
+                </div>
+                <div className="font-fahkwang text-shadow-white text-red-100 w-full lg:w-11/12 text-justify space-y-5 pb-10 lg:pb-0">
+                  <p>
+                    Nah, kalo ini maskot kita yang terakhir. Kenalin, namanya Geulis. Dia punya kebiasaan unik banget, yaitu suka berimajinasi tinggi. Banyak imajinasinya yang bikin orang terkagum-kagum.
+                  </p>
+                  <p>
+                  Oiya, si Geulis ini banyak disukain orang juga loh! Karena selain cantik, dia juga penyayang dan lemah lembut. Kalian juga bakal terpesona kalau ketemu si Geulis.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
             <div className="h-screen"></div>
           </div>
         </div>
@@ -84,4 +84,4 @@ function Maskot() {
   )
 }
 
-export default Maskot
+export default Mascot

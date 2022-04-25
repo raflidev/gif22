@@ -27,10 +27,10 @@ function Navbar() {
         <div>
           <div className="flex space-x-5">
             <Link to="/">
-              <img src={Home} className="hidden lg:block w-10" alt="" />
+              <img src={Ticket} className="hidden lg:block w-10" alt="" />
             </Link>
             <Link to="/">
-              <img src={Ticket} className="hidden lg:block w-10" alt="" />
+              <img src={Home} className="hidden lg:block w-10" alt="" />
             </Link>
           </div>
           <div className="block lg:hidden">
@@ -58,7 +58,7 @@ function Navbar() {
               <Link to="/maps">Maps</Link>
             </div>
             <div className="px-5 py-2">
-              <Link to="/maskot">Maskot</Link>
+              <Link to="/mascot">Mascot</Link>
             </div>
             <div className="px-5 py-2">
               <Link to="/theme">Theme</Link>
