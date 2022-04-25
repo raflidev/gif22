@@ -5,6 +5,8 @@ import Maskot from "./pages/Maskot";
 import Theme from "./pages/Theme";
 import Maps from "./pages/Maps";
 import LineUp from "./pages/LineUp";
+import Media from "./pages/Media";
+import Throwback from "./pages/Throwback";
 
 function App() {
   
@@ -18,6 +20,8 @@ function App() {
           <Route path="/theme" element={<Theme />}></Route>
           <Route path="/Maps" element={<Maps />}></Route>
           <Route path="/line-up" element={<LineUp />}></Route>
+          <Route path="/media" element={<Media />}></Route>
+          <Route path="/throwback" element={<Throwback />}></Route>
         </Routes>
       </Router>
     </div>

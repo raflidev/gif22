@@ -3,6 +3,7 @@ import Logo1 from "../assets/images/logo1.png";
 import Logo2 from "../assets/images/logo2.png";
 import Logo3 from "../assets/images/logo3.png";
 import Home from "../assets/images/home.png";
+import Ticket from "../assets/images/ticket.png";
 import Nav_Back from "../assets/images/navbar.png";
 import { Link } from 'react-router-dom';
 
@@ -24,9 +25,14 @@ function Navbar() {
           </a>
         </div>
         <div>
-          <Link to="/">
-            <img src={Home} className="hidden lg:block w-10" alt="" />
-          </Link>
+          <div className="flex space-x-5">
+            <Link to="/">
+              <img src={Home} className="hidden lg:block w-10" alt="" />
+            </Link>
+            <Link to="/">
+              <img src={Ticket} className="hidden lg:block w-10" alt="" />
+            </Link>
+          </div>
           <div className="block lg:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" onClick={() => setMenu(temp)} className="text-white h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
               <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
@@ -38,6 +44,9 @@ function Navbar() {
         <div className="bg-cyan-800 text-2xl font-lansdowne text-white lg:hidden grid grid-cols-1 divide-y">
             <div className="px-5 py-2">
               <Link to="/">Home</Link>
+            </div>
+            <div className="px-5 py-2">
+              <Link to="/">Tiket</Link>
             </div>
             <div className="px-5 py-2">
               <Link to="/about-us">About Us</Link>

@@ -8,6 +8,8 @@ import Lineup from "../assets/images/navigation/lineup.png";
 import Map from "../assets/images/navigation/map.png";
 import Maskot from "../assets/images/navigation/maskot.png";
 import Theme from "../assets/images/navigation/theme.png";
+import Media from "../assets/images/navigation/media.png";
+import ThrowbackIcon from "../assets/images/navigation/throwback.png";
 import NavBackground from "../assets/images/navigation/background.png";
 import DescBackground from "../assets/images/background_desc.png";
 
@@ -45,7 +47,7 @@ function Home() {
           </div>
         </div>
         <div className="-mt-0 lg:-mt-56 xl:-mt-0 min-h-full">
-            <div className="justify-center space-x-16 mt-72 hidden lg:flex">
+            <div className="justify-center space-x-20 mt-72 hidden lg:flex">
               <div>
                 <Link to="/about-us">
                   <img src={About} className="transition duration-300 rounded-full hover:shadow-md hover:shadow-pink-300 w-24 hover:rotate-45" alt="" />
@@ -83,6 +85,22 @@ function Home() {
                   <img src={Theme} className="transition duration-300 rounded-full hover:shadow-md hover:shadow-pink-300 w-24 hover:rotate-45" alt="" />
                   <div className="text-center pt-2 text-white text-2xl text-shadow-lg text-shadow-white">
                     THEME
+                  </div>
+                </Link>
+              </div>
+              <div>
+                <Link to="/throwback">
+                  <img src={ThrowbackIcon} className="transition duration-300 rounded-full hover:shadow-md hover:shadow-pink-300 w-24 hover:rotate-45" alt="" />
+                  <div className="text-center pt-2 text-white text-2xl text-shadow-lg text-shadow-white">
+                    THROWBACK
+                  </div>
+                </Link>
+              </div>
+              <div>
+                <Link to="/media">
+                  <img src={Media} className="transition duration-300 rounded-full hover:shadow-md hover:shadow-pink-300 w-24 hover:rotate-45" alt="" />
+                  <div className="text-center pt-2 text-white text-2xl text-shadow-lg text-shadow-white">
+                    MEDIA
                   </div>
                 </Link>
               </div>
