@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div>
       <div className="flex justify-between bg-no-repeat bg-cover bg-center px-3 py-2 items-center" style={{backgroundImage: `url(${Nav_Back})`}}>
-        <div className="flex space-x-5">
+        <div className="flex space-x-5 items-center">
           <a href="https://telkomuniversity.ac.id/" target="_blank" rel="noreferrer">
             <img src={Logo1} className="w-10" alt="" />
           </a>
@@ -23,11 +23,14 @@ function Navbar() {
           <a href="https://www.instagram.com/grabitfasttelkom/" target="_blank" rel="noreferrer">
             <img src={Logo3} className="w-10" alt="" />
           </a>
+          <Link to="/">
+            <img src={Ticket} className="block lg:hidden w-32" alt="" />
+          </Link>
         </div>
         <div>
-          <div className="flex space-x-5">
+          <div className="flex space-x-5 items-center">
             <Link to="/">
-              <img src={Ticket} className="hidden lg:block w-10" alt="" />
+              <img src={Ticket} className="hidden lg:block w-32" alt="" />
             </Link>
             <Link to="/">
               <img src={Home} className="hidden lg:block w-10" alt="" />
