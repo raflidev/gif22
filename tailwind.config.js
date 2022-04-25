@@ -13,6 +13,7 @@ module.exports = {
       screens: {
         'laptop-1120': '1120px',
         'laptop-1344': '1344px',
+        'laptop-1366': '1366px',
         'laptop-1440': '1440px',
         'laptop-1536': '1536px',
         'laptop-1600': '1600px',
