@@ -10,7 +10,7 @@ import NavBackground from "../assets/images/navbarReverse.png";
 import { Link } from 'react-router-dom';
 function Navigator() {
   return (
-    <div className="font-lansdowne justify-center hidden space-y-2 lg:flex lg:flex-col bg-no-repeat bg-contain bg-bottom" style={{backgroundImage: `url(${NavBackground})`}}>
+    <div className="font-lansdowne z-20 justify-center hidden space-y-2 lg:flex lg:flex-col bg-no-repeat bg-contain bg-bottom" style={{backgroundImage: `url(${NavBackground})`}}>
       <div>
         <Link to="/about-us">
           <img src={About} className="transition duration-300 rounded-full hover:shadow-md hover:shadow-pink-300 w-24 hover:rotate-45 mx-auto" alt="" />
