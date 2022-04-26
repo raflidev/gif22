@@ -8,12 +8,12 @@ import Main from "../assets/images/praevent/main.png"
 
 function Pramainevent() {
   return (
-    <div className="font-lansdowne bg-no-repeat min-h-screen bg-cover bg-top" style={{backgroundImage: `url(${PraBackround})`}}>
+    <div className="font-lansdowne font-bold bg-no-repeat min-h-screen bg-cover bg-top" style={{backgroundImage: `url(${PraBackround})`}}>
       <Navbar/>
       <div>
         <div className="pt-40">
           <div className="mx-0 md:mx-6 lg:mx-0 text-white">
-            <img src={Judul} alt="" className=" mx-auto -mb-0 lg:-mb-20" />
+            <img src={Judul} alt="" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 mx-auto -mb-0 lg:-mb-20" />
               <img src={Praevent} alt="" className="block lg:hidden mr-auto w-4/12 md:w-3/12 mb-5 lg:w-3/12" />
             <div className="space-y-10 mx-auto w-5/6 px-0 xl:px-36">
 
