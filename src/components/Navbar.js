@@ -23,23 +23,23 @@ function Navbar() {
           <a href="https://www.instagram.com/grabitfasttelkom/" target="_blank" rel="noreferrer">
             <img src={Logo3} className="w-10" alt="" />
           </a>
-          <Link to="/">
+          {/* <Link to="/">
             <img src={Ticket} className="block lg:hidden w-32" alt="" />
-          </Link>
+          </Link> */}
         </div>
         <div>
           <div className="flex space-x-5 items-center">
             <Link to="/">
-              <img src={Ticket} className="hidden lg:block w-32" alt="" />
+              <img src={Ticket} className="w-32" alt="" />
             </Link>
             <Link to="/">
               <img src={Home} className="hidden lg:block w-10" alt="" />
             </Link>
-          </div>
-          <div className="block lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" onClick={() => setMenu(temp)} className="text-white h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
+            <div className="block lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" onClick={() => setMenu(temp)} className="text-white h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -47,9 +47,6 @@ function Navbar() {
         <div className="bg-cyan-800 text-2xl font-lansdowne text-white lg:hidden grid grid-cols-1 divide-y">
             <div className="px-5 py-2">
               <Link to="/">Home</Link>
-            </div>
-            <div className="px-5 py-2">
-              <Link to="/">Tiket</Link>
             </div>
             <div className="px-5 py-2">
               <Link to="/about-us">About Us</Link>
@@ -65,6 +62,12 @@ function Navbar() {
             </div>
             <div className="px-5 py-2">
               <Link to="/theme">Theme</Link>
+            </div>
+            <div className="px-5 py-2">
+              <Link to="/media">Media</Link>
+            </div>
+            <div className="px-5 py-2">
+              <Link to="/throwback">Throwback</Link>
             </div>
         </div>
       </div>
