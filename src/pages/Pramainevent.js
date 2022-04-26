@@ -18,7 +18,9 @@ function Pramainevent() {
           <div className="mx-6 lg:mx-0 w-6/6 lg:w-5/6 pr-0 lg:pr-20">
             <div className="transition ease-in-out delay-150 hover:-translate-y-3 hover:scale-100 duration-300">
               <img src={Praevent} className="w-2/6 -ml-10 -rotate-12" alt="" />
-              <div className="bg-neutral-200 rounded-xl p-8 text-3xl">
+              <div className="bg-neutral-200 rounded-xl p-8 text-3xl space-y-10">
+              <div>
+
                 <div className="font-bold">
                   Forcy Championship 2021
                 </div>
@@ -26,11 +28,7 @@ function Pramainevent() {
                 Forcy Championship (FORCHAMP) merupakan ajang kompetisi yang diselenggarakan oleh komunitas mahasiswa Bogor di Telkom University. Rangkaian Pra Event Forchamp ini melibatkan beberapa kompetisi, yaitu kompetisi musik, poster, dan e-sport. Dari keempat kompetisi tersebut diharapkan dapat meningkatkan sportivitas, kerja sama, keaktifan, kekompakan, serta menumbuhkan rasa solidaritas.
                 </span>
               </div>
-            </div>
 
-            <div className="transition ease-in-out delay-150 hover:-translate-y-3 hover:scale-100 duration-300">
-              <img src={Main} className="w-2/6 ml-auto rotate-12" alt="" />
-              <div className="bg-neutral-200 rounded-xl p-8 text-3xl space-y-10">
                 <div>
                   <div className="font-bold">
                     Try Out UTBK & Telkom University
@@ -48,6 +46,14 @@ function Pramainevent() {
                     Road Show merupakan kegiatan sosialisasi untuk mempromosikan Telkom University ke beberapa sekolah menengah atas yang bertujuan agar para siswa mendapatkan informasi yang lebih jelas mengenai Telkom University.
                   </span>
                 </div>
+              </div>
+
+                
+            </div>
+
+            <div className="transition ease-in-out delay-150 hover:-translate-y-3 hover:scale-100 duration-300">
+              <img src={Main} className="w-2/6 ml-auto rotate-12" alt="" />
+              <div className="bg-neutral-200 rounded-xl p-8 text-3xl space-y-10">
                 <div>
                   <div className="font-bold">
                   Tel-U Expo
@@ -56,6 +62,7 @@ function Pramainevent() {
                   Tel-U Expo merupakan kegiatan untuk memperkenalkan, serta menunjukan hasil karya tiap-tiap jurusan di Telkom University kepada para peserta dengan tujuan agar peserta dapat lebih tertarik dan memiliki gambaran yang lebih jelas mengenai jurusan yang mereka minati di Telkom University.
                   </span>
                 </div>
+                
                 <div>
                   <div className="font-bold">
                   Talkshow 

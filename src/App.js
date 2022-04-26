@@ -7,8 +7,8 @@ import Maps from "./pages/Maps";
 import LineUp from "./pages/LineUp";
 import Media from "./pages/Media";
 import Throwback from "./pages/Throwback";
-import Description from "./pages/Description";
 import Pramainevent from "./pages/Pramainevent";
+import Page404 from "./pages/Page404";
 
 function App() {
   
@@ -24,8 +24,8 @@ function App() {
           <Route path="/line-up" element={<LineUp />}></Route>
           <Route path="/media" element={<Media />}></Route>
           <Route path="/throwback" element={<Throwback />}></Route>
-          <Route path="/description" element={<Description />}></Route>
           <Route path="/pramainevent" element={<Pramainevent />}></Route>
+          <Route path="/404" element={<Page404 />}></Route>
         </Routes>
       </Router>
     </div>

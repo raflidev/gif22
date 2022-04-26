@@ -29,7 +29,7 @@ function Theme() {
                 <span className="uppercase text-white text-xl lg:text-4xl text-shadow-white italic">“Explore Your Imagination”</span>
               </div>
 
-              <div className="mt-10 mx-auto w-full lg:w-10/12 font-fahkwang text-justify text-white lg:bg-no-repeat lg:bg-cover lg:h-64  xl:h-48 px-5 lg:px-20 py-5 bg-center" style={{backgroundImage: `url(${descBackground})`}}>
+              <div className="mt-10 mx-auto w-full lg:w-10/12 font-fahkwang text-justify font-bold text-white lg:bg-no-repeat lg:bg-cover lg:h-64  xl:h-48 px-5 lg:py-2 xl:py-5 lg:px-20 py-5 items-center bg-center" style={{backgroundImage: `url(${descBackground})`}}>
               Dengan tema ini kami berusaha mengajak masyarakat Kota Bogor dan sekitarnya khususnya para pelajar SMA Sederajat untuk mengembangkan imajinasi dan juga sebagai wadah pendukung bagi mereka yang memiliki kemampuan di bidang akademik maupun non-akademik. Wonderland sendiri identik dengan imajinasi. Harapannya Grab It Fast 2022 dapat memberikan inspirasi bagi para pelajar bahwa dengan imajinasi setiap orang akan mampu berpikir di luar cara pandang yang biasa untuk mendapatkan hasil atau solusi yang luar biasa melalui ide-ide baru.
               </div>
             </div>

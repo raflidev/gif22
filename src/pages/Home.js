@@ -29,7 +29,7 @@ import Tower4_2 from "../assets/images/tower/2018_2.png";
 import { Link } from 'react-router-dom';
 
 function Home() {
-  const temp1 = "Grab It Fast 2022 merupakan kegiatan yang diselenggarakan oleh Family of Rain City (FORCY) Telkom University... <a href='/description' class='text-blue-500 hover:text-blue-200 hover:underline'>Read More</a>"
+  const temp1 = "Grab It Fast 2022 merupakan kegiatan yang diselenggarakan oleh Family of Rain City (FORCY) Telkom University... <a href='/about-us' class='text-blue-500 hover:text-blue-200 hover:underline'>Read More</a>"
   const temp2 = "Forcy Championship (FORCHAMP) merupakan ajang kompetisi yang diselenggarakan oleh komunitas mahasiswa Bogor di Telkom University. Pra event forchamp ini ... <a href='/pramainevent' class='text-blue-500 hover:text-blue-200 hover:underline'>Read More</a>"
 
   const [Desc, setDesc] = useState("")
@@ -124,12 +124,12 @@ function Home() {
               </div>
 
               <div className="grid grid-cols-2 gap-2 md:flex -mt-0 lg:mt-20 lg:space-x-0 md:-mt-14 xl:-mt-20 xl:pt-36  laptop-1344:space-x-3 laptop-1344:-mt-36 laptop-1366:-mt-10 laptop-1440:-mt-14 laptop-1440:pt-64 laptop-1440:space-x-2 laptop-1536:mt-3 laptop-1536:space-x-5 laptop-1120:space-x-0 laptop-1120:-mt-24 laptop-1600:mt-20 laptop-1600:space-x-10 md:flex-row justify-center space-x-0 xl:space-x-10 pt-64">
-                <a href="https://www.youtube.com/watch?v=ip3z8WMNRMs&ab_channel=ForcyTel_U" rel="noreferrer" target="_blank">
+                <Link to="/404">
                   <HoverImage src={Tower1} className="w-48 mx-auto" hoverSrc={Tower1_2} />
                   <div className="text-shadow-purple text-5xl text-center tracking-tighter -mt-5 text-shadow-lg text-white font-mermaid">
                     GIF <span className="block">2021</span>
                   </div>
-                </a>
+                </Link>
                 <a href="https://www.youtube.com/watch?v=ip3z8WMNRMs&ab_channel=ForcyTel_U" rel="noreferrer" target="_blank">
                   <HoverImage src={Tower2} className="w-48 mx-auto" hoverSrc={Tower2_2} />
                   <div className="text-shadow-purple text-5xl text-center tracking-tighter -mt-5 text-shadow-lg text-white font-mermaid">
