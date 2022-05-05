@@ -9,6 +9,7 @@ import Media from "./pages/Media";
 import Throwback from "./pages/Throwback";
 import Pramainevent from "./pages/Pramainevent";
 import Page404 from "./pages/Page404";
+import Ticket from "./pages/Ticket";
 
 function App() {
   
@@ -26,6 +27,7 @@ function App() {
           <Route path="/throwback" element={<Throwback />}></Route>
           <Route path="/pramainevent" element={<Pramainevent />}></Route>
           <Route path="/404" element={<Page404 />}></Route>
+          <Route path="/tickets" element={<Ticket />}></Route>
         </Routes>
       </Router>
     </div>

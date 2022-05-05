@@ -29,7 +29,7 @@ function Navbar() {
         </div>
         <div>
           <div className="flex space-x-5 items-center">
-            <Link to="/">
+            <Link to="/tickets" target="_blank">
               <img src={Ticket} className="w-32" alt="" />
             </Link>
             <Link to="/">
