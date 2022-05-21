@@ -56,7 +56,7 @@ function LineUp() {
             </div>
             <div className="w-5/6 lg:w-4/6 m-auto">
             { !star && !modal && 
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
                 <div onClick={() => {setArtis("idgitaf");setModal(true)}} className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                   <img src={Igdi} alt="" />
                 </div>
@@ -69,7 +69,7 @@ function LineUp() {
               </div>
             } 
             { star && !modal && 
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
               <div onClick={() => {setArtis("idgitaf");setModal(true)}} className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                   <img src={Igdi} alt="" />
                 </div>
@@ -86,7 +86,7 @@ function LineUp() {
             { modal &&
               <div className="flex p-10 w-5/6 m-auto bg-cyan-700 rounded-xl">
                 <div className="flex w-full space-x-5">
-                  <div className="w-1/2">
+                  <div className="w-full lg:w-1/2">
                     <div className="flex items-center">
                       <div className="w-1/6">
                         <img onClick={() => {setModal(false)}} src={Back} alt="" />
@@ -99,7 +99,7 @@ function LineUp() {
                      {text}
                     </p>
                   </div>
-                  <div className="w-1/2">
+                  <div className="hidden lg:block w-1/2">
                     <div className="flex">
                       <div className="w-5/6">                     
                         {artis === "idgitaf" &&
