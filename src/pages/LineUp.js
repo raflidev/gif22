@@ -25,15 +25,32 @@ function LineUp() {
   const [artis, setArtis] = useState('');
 
   var text = "";
+  var linkSpotify = "";
+  var linkYt = "";
+  var linkIg = "";
+  var linkTwitter = "";
 
   if(artis === "idgitaf") {
     text = `Idgitaf mulai dikenal setelah beberapa video unggahannya viral. Dengan suara vokal yang unik Idgitaf terus mengeluarkan karya-karyanya yang berhasil menarik perhatian. Lagu "Takut" adalah salah satu lagu yang melesat naik dan diperdengarkan di mana-mana`
+    linkSpotify = "https://open.spotify.com/artist/7pFWMC2E7h8eL3SZyHRsRq?si=LluXHIAIQHe_y0CgzVDmAw&utm_source=copy-link"
+    linkYt = "https://youtube.com/c/Idgitaf"
+    linkIg = "https://instagram.com/idgitaf?igshid=YmMyMTA2M2Y="
+    linkTwitter = "https://twitter.com/idgitaf"
   }else if(artis === "Eva alicia"){
     text = `Eva Alicia dikenal sebagai content creator yang insipiratif karena mengunggah konten-konten seninya, salah satunya ia berhasil mencetak rekor MURI lukisan terpanjang. Selain itu, ia juga memiliki bisnis emas saat belum menginjak umur 20 tahun.`
+    linkIg = "https://www.instagram.com/aliciaeva9/?hl=id"
   }else if(artis === "the changcuters"){
     text = `The Changcuters adalah grup musik asal Bandung yang dibentuk pada tahun 2004. Aksi panggung dan penampilan yang unik dari The Changcuters membuat mereka sukses mendapatkan banyak penggemar`
+    linkSpotify = "https://open.spotify.com/artist/1DZs8IjMvRQqB3i0uvgCc5?si=BSpuvi1dRyqgXM_yHQmsCA&utm_source=copy-link"
+    linkYt = "https://youtube.com/c/WOWMaTVlLembagaPenyiaranTheChangcutersl"
+    linkIg = "https://instagram.com/thechangcuters?igshid=YmMyMTA2M2Y="
+    linkTwitter = "https://twitter.com/twitchangcuters"
   }else if(artis === "vierra"){
     text = `Vierratale (dulunya: Vierra) adalah grup band musik asal Jakarta yang terbentuk pada november 2008. Nama Vierratale langsung melambung berkat album pertama mereka (MY FIRST LOVE) yang terjual sebanyak 9 juta kopi dan mendapat penghargaan platinum.`
+    linkSpotify = "https://open.spotify.com/artist/0yz3hWDSRvBZ8V5HMYVWzp?si=2fiNjY5XQlGZdDt-lFYGWw&utm_source=copy-link"
+    linkYt = "https://youtube.com/channel/UCJonrfzGa5Q34dzpJ517Zzg"
+    linkIg = "https://instagram.com/vierratale___?igshid=YmMyMTA2M2Y="
+    linkTwitter = "https://twitter.com/Vierratale"
   }
 
   return (
@@ -116,11 +133,26 @@ function LineUp() {
                         }
                       </div>
                       <div className="w-1/6">
+                      
                         <div className="flex flex-col space-y-5 mt-10 ml-3">
-                          <img src={yt} className="w-8/12" alt="" />
-                          <img src={ig} className="w-8/12" alt="" />
-                          <img src={spotify} className="w-8/12" alt="" />
-                          <img src={twitter} className="w-8/12" alt="" />
+                        {artis !== "Eva alicia" &&
+                          <a href={linkYt} target="_blank" rel="noreferrer">
+                            <img src={yt} className="w-8/12 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="" />
+                          </a>
+                        }
+                          <a href={linkIg} target="_blank" rel="noreferrer">
+                            <img src={ig} className="w-8/12 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="" />
+                          </a>
+                        {artis !== "Eva alicia" &&
+                          <a href={linkSpotify} target="_blank" rel="noreferrer">
+                            <img src={spotify} className="w-8/12 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="" />
+                          </a>
+                        }
+                        {artis !== "Eva alicia" &&
+                          <a href={linkTwitter} target="_blank" rel="noreferrer">
+                            <img src={twitter} className="w-8/12 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="" />
+                          </a>
+                        }
                         </div>
                       </div>
                     </div>
