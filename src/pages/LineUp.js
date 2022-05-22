@@ -39,6 +39,8 @@ function LineUp() {
   }else if(artis === "Eva alicia"){
     text = `Eva Alicia dikenal sebagai content creator yang insipiratif karena mengunggah konten-konten seninya, salah satunya ia berhasil mencetak rekor MURI lukisan terpanjang. Selain itu, ia juga memiliki bisnis emas saat belum menginjak umur 20 tahun.`
     linkIg = "https://www.instagram.com/aliciaeva9/?hl=id"
+    linkYt = "https://youtube.com/c/EvaAliciaa"  
+    linkTwitter = "https://twitter.com/aliciaeva_9"
   }else if(artis === "the changcuters"){
     text = `The Changcuters adalah grup musik asal Bandung yang dibentuk pada tahun 2004. Aksi panggung dan penampilan yang unik dari The Changcuters membuat mereka sukses mendapatkan banyak penggemar`
     linkSpotify = "https://open.spotify.com/artist/1DZs8IjMvRQqB3i0uvgCc5?si=BSpuvi1dRyqgXM_yHQmsCA&utm_source=copy-link"
@@ -135,11 +137,9 @@ function LineUp() {
                       <div className="w-1/6">
                       
                         <div className="flex flex-col space-y-5 mt-10 ml-3">
-                        {artis !== "Eva alicia" &&
                           <a href={linkYt} target="_blank" rel="noreferrer">
                             <img src={yt} className="w-8/12 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="" />
                           </a>
-                        }
                           <a href={linkIg} target="_blank" rel="noreferrer">
                             <img src={ig} className="w-8/12 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="" />
                           </a>
@@ -148,11 +148,9 @@ function LineUp() {
                             <img src={spotify} className="w-8/12 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="" />
                           </a>
                         }
-                        {artis !== "Eva alicia" &&
                           <a href={linkTwitter} target="_blank" rel="noreferrer">
                             <img src={twitter} className="w-8/12 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" alt="" />
                           </a>
-                        }
                         </div>
                       </div>
                     </div>
