@@ -28,6 +28,34 @@ import Tower3_2 from "../assets/images/tower/2019_2.png";
 import Tower4_2 from "../assets/images/tower/2018_2.png";
 import { Link } from 'react-router-dom';
 
+
+
+import baseOne from "../assets/images/media/sponsorship/Base One.jpg"
+import Eduka from "../assets/images/media/sponsorship/Eduka.png"
+import GSC from "../assets/images/media/sponsorship/GSC.png"
+import hcb from "../assets/images/media/sponsorship/hcb.jpg"
+import JNE from "../assets/images/media/sponsorship/JNE 1.png"
+import ks from "../assets/images/media/sponsorship/ks.png"
+import ruru from "../assets/images/media/sponsorship/Ruru.jpg"
+import sisbar from "../assets/images/media/sponsorship/Sisbar 1.GIF"
+
+import medpart1 from "../assets/images/media/medpart/1.jpg"
+import medpart2 from "../assets/images/media/medpart/2.PNG"
+import medpart3 from "../assets/images/media/medpart/3.PNG"
+import medpart4 from "../assets/images/media/medpart/4.PNG"
+import medpart5 from "../assets/images/media/medpart/5.PNG"
+import medpart6 from "../assets/images/media/medpart/6.JPG"
+import medpart7 from "../assets/images/media/medpart/7.JPG"
+import medpart8 from "../assets/images/media/medpart/8.JPG"
+import medpart9 from "../assets/images/media/medpart/9.JPG"
+import medpart10 from "../assets/images/media/medpart/10.JPG"
+import medpart11 from "../assets/images/media/medpart/11.JPG"
+import medpart12 from "../assets/images/media/medpart/12.JPG"
+import medpart13 from "../assets/images/media/medpart/13.JPG"
+import medpart14 from "../assets/images/media/medpart/14.JPG"
+import medpart15 from "../assets/images/media/medpart/15.JPG"
+
+
 function Home() {
   const temp1 = "Grab It Fast 2022 merupakan kegiatan yang diselenggarakan oleh Family of Rain City (FORCY) Telkom University... <a href='/about-us' class='text-blue-500 hover:text-blue-200 hover:underline'>Read More</a>"
   const temp2 = "Forcy Championship (FORCHAMP) merupakan ajang kompetisi yang diselenggarakan oleh komunitas mahasiswa Bogor di Telkom University. Pra event forchamp ini ... <a href='/pramainevent' class='text-blue-500 hover:text-blue-200 hover:underline'>Read More</a>"
@@ -151,8 +179,48 @@ function Home() {
               </div>
             </div>
 
-            <div className="h-screen"></div>
-            <div className="h-screen"></div>
+            <div className="h-0 md:h-screen"></div>
+            <div className="h-0 md:h-64"></div>
+            <div className="">
+              <div className="mx-auto p-8 w-11/12">
+                <div className="py-10 lg:py-5 flex">
+                  <h1 className="mx-auto font-lansdowne text-5xl lg:text-4xl text-white">Sponsorship</h1>
+                </div>
+                <div className="grid grid-cols-2 lg:grid-cols-12 content-center gap-4">
+                  <img src={baseOne} className="rounded-lg" alt="" />
+                  <img src={Eduka} className="rounded-lg" alt="" />
+                  <img src={GSC} className="rounded-lg" alt="" />
+                  <img src={hcb} className="rounded-lg" alt="" />
+                  <img src={JNE} className="rounded-lg" alt="" />
+                  <img src={ks} className="rounded-lg" alt="" />
+                  <img src={ruru} className="rounded-lg" alt="" />
+                  <img src={sisbar} className="rounded-lg" alt="" />
+                </div>
+                <div className="py-10 lg:py-5 flex">
+                  <h1 className="mx-auto font-lansdowne text-5xl lg:text-4xl text-white">Media Partner</h1>
+                </div>
+                <div className="grid grid-cols-2 lg:grid-cols-12 gap-4">
+                    <img src={medpart1} className="rounded-lg" alt="" />
+                    <img src={medpart2} className="rounded-lg" alt="" />
+                    <img src={medpart3} className="rounded-lg" alt="" />
+                    <img src={medpart4} className="rounded-lg" alt="" />
+                    <img src={medpart5} className="rounded-lg" alt="" />
+                    <img src={medpart6} className="rounded-lg" alt="" />
+                    <img src={medpart7} className="rounded-lg" alt="" />
+                    <img src={medpart8} className="rounded-lg" alt="" />
+                    <img src={medpart9} className="rounded-lg" alt="" />
+                    <img src={medpart10} className="rounded-lg" alt="" />
+                    <img src={medpart11} className="rounded-lg" alt="" />
+                    <img src={medpart12} className="rounded-lg" alt="" />
+                    <img src={medpart13} className="rounded-lg" alt="" />
+                    <img src={medpart14} className="rounded-lg" alt="" />
+                    <img src={medpart15} className="rounded-lg" alt="" />
+                  </div>
+              </div>
+            </div>
+
+            
+            
 
           </div>
 
