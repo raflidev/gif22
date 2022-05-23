@@ -152,12 +152,12 @@ function Home() {
               </div>
 
               <div className="grid grid-cols-2 gap-2 md:flex -mt-0 lg:mt-20 lg:space-x-0 md:-mt-14 xl:-mt-20 xl:pt-36  laptop-1344:space-x-3 laptop-1344:-mt-36 laptop-1366:-mt-10 laptop-1440:-mt-14 laptop-1440:pt-64 laptop-1440:space-x-2 laptop-1536:mt-3 laptop-1536:space-x-5 laptop-1120:space-x-0 laptop-1120:-mt-24 laptop-1600:mt-20 laptop-1600:space-x-10 md:flex-row justify-center space-x-0 xl:space-x-10 pt-64">
-                <Link to="/404">
+                <a href="https://www.youtube.com/watch?v=pDcjZ9-kJkM" rel="noreferrer" target="_blank">
                   <HoverImage src={Tower1} className="w-48 mx-auto" hoverSrc={Tower1_2} />
                   <div className="text-shadow-purple text-5xl text-center tracking-tighter -mt-5 text-shadow-lg text-white font-mermaid">
                     GIF <span className="block">2021</span>
                   </div>
-                </Link>
+                </a>
                 <a href="https://www.youtube.com/watch?v=ip3z8WMNRMs&ab_channel=ForcyTel_U" rel="noreferrer" target="_blank">
                   <HoverImage src={Tower2} className="w-48 mx-auto" hoverSrc={Tower2_2} />
                   <div className="text-shadow-purple text-5xl text-center tracking-tighter -mt-5 text-shadow-lg text-white font-mermaid">

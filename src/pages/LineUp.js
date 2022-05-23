@@ -76,15 +76,12 @@ function LineUp() {
             <div className="w-5/6 lg:w-4/6 m-auto">
             { !star && !modal && 
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-                <div onClick={() => {setArtis("idgitaf");setModal(true)}} className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-                  <img src={Igdi} alt="" />
-                </div>
+                <div></div>
                 <div onClick={() => {setArtis("Eva alicia");setModal(true)}} className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                   <img src={Evaalicia} alt="" />
                 </div>
-                <div onClick={() => {setArtis("vierra");setModal(true)}} className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-                  <img src={Vierra} alt="" />
-                </div>
+                <div></div>
+    
               </div>
             } 
             { star && !modal && 
