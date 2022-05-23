@@ -38,6 +38,7 @@ import JNE from "../assets/images/media/sponsorship/JNE 1.png"
 import ks from "../assets/images/media/sponsorship/ks.png"
 import ruru from "../assets/images/media/sponsorship/Ruru.jpg"
 import sisbar from "../assets/images/media/sponsorship/Sisbar 1.GIF"
+import telkom from "../assets/images/media/sponsorship/telkom.jpg"
 
 import medpart1 from "../assets/images/media/medpart/1.jpg"
 import medpart2 from "../assets/images/media/medpart/2.PNG"
@@ -46,7 +47,6 @@ import medpart4 from "../assets/images/media/medpart/4.PNG"
 import medpart5 from "../assets/images/media/medpart/5.PNG"
 import medpart6 from "../assets/images/media/medpart/6.JPG"
 import medpart7 from "../assets/images/media/medpart/7.JPG"
-import medpart8 from "../assets/images/media/medpart/8.JPG"
 import medpart9 from "../assets/images/media/medpart/9.JPG"
 import medpart10 from "../assets/images/media/medpart/10.JPG"
 import medpart11 from "../assets/images/media/medpart/11.JPG"
@@ -192,6 +192,7 @@ function Home() {
                   <img src={GSC} className="rounded-lg" alt="" />
                   <img src={hcb} className="rounded-lg" alt="" />
                   <img src={JNE} className="rounded-lg" alt="" />
+                  <img src={telkom} className="rounded-lg" alt="" />
                   <img src={ks} className="rounded-lg" alt="" />
                   <img src={ruru} className="rounded-lg" alt="" />
                   <img src={sisbar} className="rounded-lg" alt="" />
@@ -207,7 +208,6 @@ function Home() {
                     <img src={medpart5} className="rounded-lg" alt="" />
                     <img src={medpart6} className="rounded-lg" alt="" />
                     <img src={medpart7} className="rounded-lg" alt="" />
-                    <img src={medpart8} className="rounded-lg" alt="" />
                     <img src={medpart9} className="rounded-lg" alt="" />
                     <img src={medpart10} className="rounded-lg" alt="" />
                     <img src={medpart11} className="rounded-lg" alt="" />
